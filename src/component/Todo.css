@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+
+}
+.main{
+    background-color: aqua;
+    min-height: 100vh;
+    padding:auto;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.app{
+    border-radius: 20%;
+    margin: 50px 0;
+    background-color: bisque;
+    padding: 50px;
+    max-width: 60%;
+    min-width: 20%;
+}
+.heading{
+    background-color: rgb(241, 241, 241);
+    margin: 50px;
+    border-radius: 20%;
+}
+.heading>h1{
+    color: rgb(12, 12, 12);
+    padding: 10px;
+    
+}
+
+input{
+    width: 80%;
+    background-color: pink;
+    border-radius: 10%;
+    padding: 7px;
+    font-size: 15px;
+}
+.addBtn{
+    color: brown;
+    background-color: beige;
+    border-radius: 10%;
+    padding: 4px;
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+
+.addList{
+    max-width: 450px;
+    min-width: 100px;
+    margin-top: 50px;
+    /* border: 1px solid aquamarine; */
+    padding: 10px;
+
+}
+.addTODO{
+    max-width: 450px;
+    min-width: 100px;
+    margin-top: 5px;
+    /* border: 1px solid aquamarine; */
+    padding: 10px;
+}
+.addTODO>span{
+    display: flex;
+    width: 100%;
+    align-items:center ;
+
+}
+li{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 7px;
+    font-size: 15px;
+    word-break: break-all;
+}
+i{
+    color: brown;
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.reset{
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    font-weight: 900;
+    color: antiquewhite;
+    margin-top: 50px;
+}
+@media screen and (max-width:600px) {
+    .main{
+        padding:20px;
+       
+    }
+    .app{
+        background-color: bisque;
+        padding: 15px;
+        max-width: 100%;
+        min-width: 20%;
+    }
+}
